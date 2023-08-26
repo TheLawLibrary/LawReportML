@@ -1,11 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<volume>
+<Volume>
   <FrontCover></FrontCover>
   <TitlePage>
-    
+    <line>Nebraska Appendix</line>
   </TitlePage>
   <FrontMatter>
-
+    <TableOfCasesReported>
+      <title>Table of Cases Reports</title>
+      <table></table>
+    </TableOfCasesReported>
+    <TableOfCasesCited>
+      <title>Table of Cases Cited</title>
+      <table></table>
+    </TableOfCasesCited>
   </FrontMatter>
-</volume>
+
+  <Cases>
+    <Case>
+      <name class="in-text"><party>Party 1</party> <versus>v.</versus> <party>Party 2</party></name>
+      <name class="tocr">Party 1 <i>v.</i> Party 2</name>
+      <name class="tocr">Party 2; Party 1 <i>v.</i></name>
+      <SuperiorHeader><party>Party 1</party> <versus>v.</versus> <party>Party 2</party></SuperiorHeader>
+      <CiteAs>[Volume] [Reporter Abbreviation] [First Page] ([Year])</CiteAs>
+      <AppealFrom>On Appeal from [Court]</AppealFrom>
+      <Info>
+        <CaseNo></CaseNo><mspace /><DateArgued></DateArgued><mdash /><DateDecided></DateDecided>
+      </Info>
+      <Syllabus>
+        <InferiorHeader>Syllabus</InferiorHeader>
+        <Facts>
+          <p class="first"></p>
+          <p class="reg"></p>
+        </Facts>
+        <Held>
+          <p class="first"><i>Held</i>:</p>
+          <p class="reg"></p>
+        </Held>
+        <Disposition></Disposition>
+        <Opinions></Opinions>
+      </Syllabus>
+      <Attorneys>
+        <!-- Attorney names appear in italics -->
+      </Attorneys>
+      <Opinion>
+        <InferiorHeader>Opinion of the Court</InferiorHeader>
+        <p>
+          <Author>Justice [name] delivered the opinion of the court.</Author>
+        </p>
+        <p>
+          <sent></sent>
+          <sent></sent>
+        </p>
+      </Opinion>
+    </Case>
+  </Cases>
+
+</Volume>
