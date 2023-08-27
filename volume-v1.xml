@@ -3,25 +3,25 @@
 <Volume>
   <FrontCover></FrontCover>
   <TitlePage>
-    <line>Nebraska Appendix</line>
+    <Line>Nebraska Appendix</Line>
   </TitlePage>
   <FrontMatter>
     <TableOfCasesReported>
-      <title>Table of Cases Reports</title>
-      <table></table>
+      <Title>Table of Cases Reported</Title>
+      <Table></Table>
     </TableOfCasesReported>
     <TableOfCasesCited>
-      <title>Table of Cases Cited</title>
-      <table></table>
+      <Title>Table of Cases Cited</Title>
+      <Table></Table>
     </TableOfCasesCited>
   </FrontMatter>
 
   <Cases>
     <Case>
-      <name class="in-text"><party>Party 1</party> <versus>v.</versus> <party>Party 2</party></name>
-      <name class="tocr">Party 1 <i>v.</i> Party 2</name>
-      <name class="tocr">Party 2; Party 1 <i>v.</i></name>
-      <SuperiorHeader><party>Party 1</party> <versus>v.</versus> <party>Party 2</party></SuperiorHeader>
+      <Name class="in-text"><Party>Party 1</Party> <Versus>v.</Versus> <Party>Party 2</Party></Name>
+      <Name class="tocr">Party 1 <I>v.</I> Party 2</Name>
+      <Name class="tocr">Party 2; Party 1 <I>v.</I></Name>
+      <SuperiorHeader><Party>Party 1</Party> <Versus>v.</Versus> <Party>Party 2</Party></SuperiorHeader>
       <CiteAs>[Volume] [Reporter Abbreviation] [First Page] ([Year])</CiteAs>
       <AppealFrom>On Appeal from [Court]</AppealFrom>
       <Info>
@@ -30,12 +30,12 @@
       <Syllabus>
         <InferiorHeader>Syllabus</InferiorHeader>
         <Facts>
-          <p class="first"></p>
-          <p class="reg"></p>
+          <P class="first"></P>
+          <P class="reg"></P>
         </Facts>
         <Held>
-          <p class="first"><i>Held</i>:</p>
-          <p class="reg"></p>
+          <P class="first"><I>Held</I>:</P>
+          <P class="reg"></P>
         </Held>
         <Disposition></Disposition>
         <Opinions></Opinions>
@@ -45,13 +45,13 @@
       </Attorneys>
       <Opinion>
         <InferiorHeader>Opinion of the Court</InferiorHeader>
-        <p>
+        <P>
           <Author>Justice [name] delivered the opinion of the court.</Author>
-        </p>
-        <p>
-          <sent></sent>
-          <sent></sent>
-        </p>
+        </P>
+        <P>
+          <Sent></Sent>
+          <Sent></Sent>
+        </P>
       </Opinion>
     </Case>
   </Cases>
