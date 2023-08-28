@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- $Id: fop.xconf 1616312 2014-08-06 19:19:31Z gadams $ -->
+
+<!--
+
+This is an example configuration file for FOP.
+This file contains the same settings as the default values
+and will have no effect if used unchanged.
+
+Relative config url's will be resolved relative to
+the location of this file.
+
+-->
+
+<!-- NOTE: This is the version of the configuration -->
+<fop version="1.0">
+
+  <base>.</base>
+
+  <!-- Information for specific renderers -->
+  <!-- Uses renderer mime type for renderers -->
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font kerning="yes" embed-url="fonts/century-expanded/regular.otf" embedding-mode="subset">
+          <font-triplet name="Century-Expanded-Regular" style="normal" weight="normal"/>
+        </font>
+        <font kerning="yes" embed-url="fonts/century-expanded/italic.otf" embedding-mode="subset">
+          <font-triplet name="Century-Expanded-Italic" style="italic" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+  </renderers>
+
+</fop>
