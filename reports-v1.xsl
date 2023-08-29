@@ -808,4 +808,176 @@
     </fo:block>
   </xsl:template>
 
+<!-- 
+
+=================================================
+:::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::GENERALLY  APPLICABLE::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::
+=================================================
+
+-->
+  <xsl:template match="//starPage">
+    <fo:inline 
+      font-family="Century-Expanded-Bold"
+      font-style="normal" font-weight="bold">
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <xsl:template match="//threeStarDivider">
+    <fo:block
+      font-family="Century-Expanded-Regular"
+      font-style="normal" font-weight="normal"
+      font-size="11pt" text-align="center"
+      space-before="0.125in" space-after="0.125in">
+      <xsl:text>*&#8195;&#8195;*&#8195;&#8195;*</xsl:text>
+      <xsl:apply-templates />
+    </fo:block>
+  </xsl:template>
+
+  <!--
+  Italic - Use for italicized text found in case names or titles of works
+  -->
+  <xsl:template match="//I">
+  <!-- GOOD -->
+    <fo:inline 
+      font-family="Century-Expanded-Italic" 
+      font-style="italic" font-weight="normal">
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- 
+  Emphasis - Use for text that would require an "emphasis added" 
+  parenthetical if it was cited.
+  -->
+  <xsl:template match="//em">
+    <fo:inline 
+      font-family="Century-Expanded-Italic" 
+      font-style="italic" font-weight="normal">
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+
+  <!-- 
+  En Dash
+  -->
+  <xsl:template match="//ndash">
+    <fo:inline>
+      <xsl:text>&#8211;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!--
+  Em Dash
+  -->
+  <xsl:template match="//mdash">
+    <fo:inline>
+      <xsl:text>&#8212;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!--
+  & [Ampersand]
+  -->
+  <xsl:template match="//amp">
+    <fo:inline>
+      <xsl:text>&#38;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- $ [Dollar Sig] -->
+  <xsl:template match="//dollar">
+    <fo:inline>
+      <xsl:text>&#36;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- ‘ [Left Single Quote] -->
+  <xsl:template match="//lsquo">
+    <fo:inline>
+      <xsl:text>&#8216;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- ’ [Right Single Quote/Apostrophe] -->
+  <xsl:template match="//rsquo">
+    <fo:inline>
+      <xsl:text>&#8217;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <xsl:template match="//quote">
+    <fo:inline>
+      <xsl:text>&#8220;</xsl:text>
+      <xsl:value-of select="." />
+      <xsl:text>&#8221;</xsl:text>
+      <!-- <xsl:apply-templates /> -->
+    </fo:inline>
+  </xsl:template>
+
+  <!-- “ [Left Double Quote] -->
+  <xsl:template match="//ldquo">
+    <fo:inline>
+      <xsl:text>&#8220;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- ” [Right Double Quote] -->
+  <xsl:template match="//rdquo">
+    <fo:inline>
+      <xsl:text>&#8221;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- § [Section Symbol] -->
+  <xsl:template match="//sect">
+    <fo:inline>
+      <xsl:text>&#167;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- ¶ [Pilcrow (Paragraph Symbol)] -->
+  <xsl:template match="//pilcrow">
+    <fo:inline>
+      <xsl:text>&#182;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- Non-Breaking Space -->
+  <xsl:template match="//nbsp">
+    <fo:inline>
+      <xsl:text>&#160;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- En Space -->
+  <xsl:template match="//nspace">
+    <fo:inline>
+      <xsl:text>&#8194;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
+  <!-- Em Space -->
+  <xsl:template match="//mspace">
+    <fo:inline>
+      <xsl:text>&#8195;</xsl:text>
+      <xsl:apply-templates />
+    </fo:inline>
+  </xsl:template>
+
 </xsl:stylesheet>

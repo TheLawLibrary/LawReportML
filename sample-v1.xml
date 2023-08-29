@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Volume>
+  <FrontCover></FrontCover>
+  <TitlePage>
+    <Line>Nebraska Appendix</Line>
+  </TitlePage>
+  <FrontMatter>
+    <TableOfCasesReported>
+      <Title>Table of Cases Reported</Title>
+      <Table></Table>
+    </TableOfCasesReported>
+    <TableOfCasesCited>
+      <Title>Table of Cases Cited</Title>
+      <Table></Table>
+    </TableOfCasesCited>
+  </FrontMatter>
+
+  <Cases>
+    <Case>
+      <Name class="in-text"><Party>Shandera</Party> <Versus>v.</Versus> <Party>Schultz</Party></Name>
+      <Name class="tocr">Shandera <I>v.</I> Schultz</Name>
+      <Name class="tocr">Schultz; Shandera <I>v.</I></Name>
+      <SuperiorHeader><Party>Party 1</Party> <Versus>v.</Versus> <Party>Party 2</Party></SuperiorHeader>
+      <CiteAs>1 Neb. Appx. (1 And.) 1 (2023)</CiteAs>
+      <AppealFrom>On Appeal from District Court for Washington County: John E. Samson, Judge.</AppealFrom>
+      <Info>
+        <CaseNo>No. A-22-783.</CaseNo><mspace /><DateDecided>Filed August 22, 2023.</DateDecided>
+      </Info>
+      <Attorneys>
+        <!-- Attorney names appear in italics -->
+        <P><I>Adam R. Little</I>, of Nebraska Legal Group, for appellant.</P>
+        <P><I>Nicholas R. Glasz</I> and <I>William Taylor</I>, Senior Certified Law Student, of Glasz Law Firm, for appellee.</P>
+      </Attorneys>
+      <Before><Judge>Pirtle</Judge>, Chief Judge, and <Judge>Moore</Judge> and <Judge>Riedmann</Judge>, Judges.</Before>
+      <Opinion>
+        <InferiorHeader>Opinion of the Court</InferiorHeader>
+        
+        <Author>Chief Judge Pirtle delivered the opinion of the court.</Author>
+        
+        <Section>
+          <H1>Introduction</H1>
+          <P>
+            <Sent>Kaitlyn A. Schultz, now known as Kaitlyn A. Weston, appeals the order of the district court for Washington County overruling her amended counter-complaint for modification of custody and removal of her minor child from the jurisdiction.</Sent>
+            <Sent>Based on the reasons that follow, we affirm.</Sent>
+          </P>
+        </Section>
+        <Section>
+          <H1>Background</H1>
+          <P>
+            <Sent>On December 2, 2014, the district court entered a decree of paternity and custody, finding Donald L. Shandera III to be the natural father of Austyn M. Shandera, born in 2013.</Sent>
+            <Sent>Kaitlyn is Austyn<rsquo />s biological mother.</Sent>
+            <Sent>Kaitlyn resided in Texas at the time of the decree, and Donald resided in Nebraska.</Sent>
+            <Sent>Donald was awarded sole legal and physical custody of Austyn, and Kaitlyn was awarded parenting time.</Sent>
+            <Sent>Kaitlyn appealed the district court<rsquo />s award of custody to Donald, and we affirmed. See <I>Shandera</I> v. <I>Schultz</I>, 23 Neb. App. 521, 876 N.W.2d 667 (2016).</Sent>
+          </P>
+          <P>
+            <Sent>On July 11, 2021, Donald filed a complaint for modification alleging there had been a material change in circumstances since the decree was entered and seeking to amend the visitation and parenting plan.</Sent>
+            <Sent>Kaitlyn filed an answer and counter-complaint on September 29, and an amended counter-complaint on June 27, 2022.</Sent>
+            <Sent>In the amended counter-complaint she alleged that there had been material changes in circumstances since the decree was ordered that warranted modification of the decree.</Sent>
+            <Sent>Specifically, she alleged that the material changes included: (1) she had relocated from Texas to Iowa, and was living approximately 2 to 2.5 hours from Donald and Austyn, (2) Donald had relocated from Washington County to Saunders County, such that Austyn<rsquo />s school district and living environment had changed, (3) Austyn had aged and matured such that the existing parenting plan was no longer consistent with her best interest, (4) the parties<rsquo /> incomes had changed such that the child support calculation would result in a change of more than 10 percent, (5) Donald<rsquo />s co-parenting skills had changed such that the current parenting plan was no longer in Austyn<rsquo />s best interest, and (6) the parties<rsquo /> respective living environments had changed.</Sent>
+            <Sent>Kaitlyn asked the court to modify the decree to award her sole physical custody of Austyn and to grant her permission to remove Austyn to Iowa.</Sent>
+            <Sent>She also sought full legal custody of Austyn, or in the alternative, joint legal custody.</Sent>
+          </P>
+        </Section>
+        <P>
+          <Sent></Sent>
+          <Sent></Sent>
+        </P>
+      </Opinion>
+    </Case>
+  </Cases>
+
+</Volume>
